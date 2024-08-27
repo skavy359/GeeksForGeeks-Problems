@@ -7,7 +7,7 @@ int gcd(int a,int b){
     int len;
     int res;
 
-    if(a>b){
+    if(a<b){
         len=a;
     }
     else{
